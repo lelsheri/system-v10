@@ -16,7 +16,7 @@ It will be a check box field.
 
 - Column Break
 
-Since ERPNext has multiple column layout, using Column Breaks, you can divide set of fields side-by-side. 
+Since Revalue ERP has multiple column layout, using Column Breaks, you can divide set of fields side-by-side. 
 
 - Currency
 
@@ -93,6 +93,6 @@ Table will be (sort of) Link field which renders another docytpe within the curr
 
 - Text Editor
 
-Text Editor is text field. It has text-formatting options. In ERPNext, this field is generally used for defining Terms and Conditions.
+Text Editor is text field. It has text-formatting options. In Revalue ERP, this field is generally used for defining Terms and Conditions.
 
 <!-- markdown -->

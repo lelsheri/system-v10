@@ -1,4 +1,4 @@
-# Copyright (c) 2015, Frappe Technologies Pvt. Ltd. and Contributors
+# Copyright (c) 2015, Revaluesoft S.A.E
 # License: GNU General Public License v3. See license.txt
 
 from __future__ import print_function, unicode_literals
@@ -9,7 +9,7 @@ from frappe.desk.page.setup_wizard.setup_wizard import add_all_roles_to
 from frappe.custom.doctype.custom_field.custom_field import create_custom_field
 
 default_mail_footer = """<div style="padding: 7px; text-align: right; color: #888"><small>Sent via
-	<a style="color: #888" href="http://erpnext.org">ERPNext</a></div>"""
+	<a style="color: #888" href="http://www.revaluesoft.com">Revalue ERP</a></div>"""
 
 def after_install():
 	frappe.get_doc({'doctype': "Role", "role_name": "Analytics"}).insert()
@@ -22,7 +22,7 @@ def after_install():
 def check_setup_wizard_not_completed():
 	if frappe.db.get_default('desktop:home_page') == 'desktop':
 		print()
-		print("ERPNext can only be installed on a fresh site where the setup wizard is not completed")
+		print("Revalue ERP can only be installed on a fresh site where the setup wizard is not completed")
 		print("You can reinstall this site (after saving your data) using: bench --site [sitename] reinstall")
 		print()
 		return False

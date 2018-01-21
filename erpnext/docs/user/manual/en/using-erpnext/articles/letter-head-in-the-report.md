@@ -10,6 +10,6 @@ In a Company master, if no Letter Head is set as default, then in the reports, L
 
 <img class="screenshot" alt="Default Letter Head" src="/docs/assets/img/articles/report-header-2.png">
 
-If you are managing multiple companies in a single ERPNext account, then ensure that for each Company, default Letter Head is set in the Company master.
+If you are managing multiple companies in a single Revalue ERP account, then ensure that for each Company, default Letter Head is set in the Company master.
 
-After updating Letter Head in the Company master, refresh your ERPNext account, and then check the print format of a report.
+After updating Letter Head in the Company master, refresh your Revalue ERP account, and then check the print format of a report.

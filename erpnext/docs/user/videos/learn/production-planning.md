@@ -1,8 +1,8 @@
 # Production Planning Tool
 
-<iframe width="660" height="371" src="https://www.youtube.com/embed/CzatSl4zJ2Y" frameborder="0" allowfullscreen></iframe>
+<iframe width="660" height="371" src="https://www.youtube.com/embed/7bV0pjExl2k" frameborder="0" allowfullscreen></iframe>
 
-**Duration: 1:41**
+
 
 Production Planning Tool helps you plan production and purchase of Items for a period.
 

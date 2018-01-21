@@ -1,7 +1,7 @@
 # Asset Maintenance Management
-ERPNext provides features to track the details of individual maintenance/calibration tasks for an asset by date, the person responsible for the maintenance and future maintenance due date.
+Revalue ERP provides features to track the details of individual maintenance/calibration tasks for an asset by date, the person responsible for the maintenance and future maintenance due date.
 
-To perform Asset Maintenance in ERPNext,
+To perform Asset Maintenance in Revalue ERP,
 
   1. Enable Asset Maintenance.
   2. Create Asset Maintenance Team.

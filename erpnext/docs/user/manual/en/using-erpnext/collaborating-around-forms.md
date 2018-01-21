@@ -1,6 +1,6 @@
 # Collaborating Around Forms
 
-Following are the tools in each document using which you can collaborate with other Users in your ERPNext account.
+Following are the tools in each document using which you can collaborate with other Users in your Revalue ERP account.
 
 ### Assigned to
 

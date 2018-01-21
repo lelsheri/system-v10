@@ -154,13 +154,13 @@ def get_data():
 			"items": [
 				{
 					"type": "help",
-					"label": _("Lead to Quotation"),
-					"youtube_id": "TxYX4r4JAKA"
+					"label": _("Customer Relationship Management"),
+					"youtube_id": "bWogz2jjHOk"
 				},
 				{
 					"type": "help",
 					"label": _("Newsletters"),
-					"youtube_id": "muLKsCrrDRo"
+					"youtube_id": "LO6FjwVyW5Y"
 				},
 			]
 		},

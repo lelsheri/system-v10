@@ -1,5 +1,5 @@
 # Payment Terms
-You can save your business' payment terms on ERPNext and include it in all documents in the sales/purchase cycle and ERPNext will make all the proper general ledger entries accordingly.
+You can save your business' payment terms on Revalue ERP and include it in all documents in the sales/purchase cycle and Revalue ERP will make all the proper general ledger entries accordingly.
 
 The documents you can attach Payment Terms to are:
 - Sales Invoice
@@ -34,7 +34,7 @@ When converting or copying documents in the sales/purchase cycle, the attached P
 This does not mean you have manually set Payment Terms for every document. If you want the Payment Terms to be copyable, make use of Payment Terms Template.
 
 ##  Payment Terms Template
-Payment Terms Template tells ERPNext how to populate the table in the Payment Terms Schedule section of the sales/purchase document.
+Payment Terms Template tells Revalue ERP how to populate the table in the Payment Terms Schedule section of the sales/purchase document.
  
 You should use it if you have a set of standard Payment Terms or if you want the Payment Term(s) on a sales/purchase document to be copyable.
 

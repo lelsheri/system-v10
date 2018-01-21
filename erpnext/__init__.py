@@ -96,7 +96,7 @@ def allow_regional(fn):
 	'''Decorator to make a function regionally overridable
 
 	Example:
-	@erpnext.allow_regional
+	@revalue.allow_regional
 	def myfunction():
 	  pass'''
 	def caller(*args, **kwargs):

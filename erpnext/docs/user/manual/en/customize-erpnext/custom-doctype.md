@@ -1,10 +1,10 @@
 # Custom Doctype
 
-DocType or a Document Type is a tool to insert form in ERPNext. The forms like Sales Order,
+DocType or a Document Type is a tool to insert form in Revalue ERP. The forms like Sales Order,
 Sales Invoices, Production Order are added as Doctype in the backend. Let's assume we are
 creating a Custom Doctype for a Book.
 
-Custom Doctype allows you to insert custom forms in ERPNext as per your requirement.
+Custom Doctype allows you to insert custom forms in Revalue ERP as per your requirement.
 
 To create a new **DocType**, go to:
 

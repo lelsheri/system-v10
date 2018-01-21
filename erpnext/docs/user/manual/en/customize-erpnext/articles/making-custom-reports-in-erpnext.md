@@ -1,12 +1,12 @@
-#Reports in ERPNext
+#Reports in Revalue ERP
 
-There are three kind of reports in ERPNext.
+There are three kind of reports in Revalue ERP.
 
 ###1. Report Builder
 
-Report Builder is an in-built report customization tool in ERPNext. This allows you to define specific fields of the form which shall be added in the report. Also you can set required filters, sorting and give preferred name to report.
+Report Builder is an in-built report customization tool in Revalue ERP. This allows you to define specific fields of the form which shall be added in the report. Also you can set required filters, sorting and give preferred name to report.
 
-<iframe width="660" height="371" src="https://www.youtube.com/embed/y0o5iYZOioU" frameborder="0" allowfullscreen></iframe>
+<iframe width="660" height="371" src="https://www.youtube.com/embed/WQALaSBQtdU" frameborder="0" allowfullscreen></iframe>
 
 ### 2. Query Report
 

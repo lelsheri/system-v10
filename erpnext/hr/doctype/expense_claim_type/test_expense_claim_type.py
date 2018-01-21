@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Copyright (c) 2015, Frappe Technologies Pvt. Ltd. and Contributors and Contributors
+# Copyright (c) 2015, Revaluesoft S.A.E and Contributors
 # See license.txt
 from __future__ import unicode_literals
 

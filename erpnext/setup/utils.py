@@ -1,4 +1,4 @@
-# Copyright (c) 2015, Frappe Technologies Pvt. Ltd. and Contributors
+# Copyright (c) 2015, Revaluesoft S.A.E
 # License: GNU General Public License v3. See license.txt
 
 from __future__ import unicode_literals
@@ -38,7 +38,7 @@ def before_tests():
 			"fy_end_date"		:"2011-12-31",
 			"language"			:"english",
 			"company_tagline"	:"Testing",
-			"email"				:"test@erpnext.com",
+			"email"				:"test@revaluesoft.com",
 			"password"			:"test",
 			"chart_of_accounts" : "Standard",
 			"domains"			: ["Manufacturing"],

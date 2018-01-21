@@ -24,6 +24,6 @@ In the fields section, click on the Custom field and check the **Allow On Submit
 
 <img alt="Update" class="screenshot" src="/docs/assets/img/articles/allow-on-submit-3.png">
 
-After updating Customize Form, you should reload your ERPNext account. Then check form, and field to confirm its editable in submitted form as well.
+After updating Customize Form, you should reload your Revalue ERP account. Then check form, and field to confirm its editable in submitted form as well.
 
 <!-- markdown -->

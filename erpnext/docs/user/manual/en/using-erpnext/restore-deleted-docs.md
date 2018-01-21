@@ -1,10 +1,10 @@
 #Restore Deleted Documents
 
-In ERPNext, you can delete a records if not needed. They can be masters like Items, Customer or transactions like Sales Order, Payment Entries etc.
+In Revalue ERP, you can delete a records if not needed. They can be masters like Items, Customer or transactions like Sales Order, Payment Entries etc.
 
 <img class="screenshot" alt="Delete a Docuemnt" src="/docs/assets/img/collaboration-tools/delete-a-doc.png">
 
-If you have deleted an entry by mistake and wish to restore it back into your ERPNext account.
+If you have deleted an entry by mistake and wish to restore it back into your Revalue ERP account.
 
 > Only User having System Manager role assigned can restore deleted documents.
 
@@ -24,7 +24,7 @@ Open the document to be restored from the list. Click on Restore button.
 
 ####Step 3: Restored
 
-Once a document is restored, you will be able to use it for creating entries in your ERPNext account. 
+Once a document is restored, you will be able to use it for creating entries in your Revalue ERP account. 
 
 <img class="screenshot" alt="Restored Doc" src="/docs/assets/img/collaboration-tools/restored-doc.png">
 
