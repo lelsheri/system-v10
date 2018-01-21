@@ -48,15 +48,15 @@ def get_data():
 			"items": [
 				{
 					"type": "help",
-					"name": _("Data Import and Export"),
-					"youtube_id": "6wiriRKPhmg"
+					"name": _("Opening Stock Balance"),
+					"youtube_id": "AFBiCjdS2g8"
 				},
 				{
 					"type": "help",
-					"label": _("Setting up Email"),
-					"youtube_id": "YFYe0DrB95o"
+					"label": _("File Manager"),
+					"youtube_id": "aYgtAALuZD4"
 				},
-				{
+"""				{
 					"type": "help",
 					"label": _("Printing and Branding"),
 					"youtube_id": "cKZHcx1znMc"
@@ -70,7 +70,7 @@ def get_data():
 					"type": "help",
 					"label": _("Workflow"),
 					"youtube_id": "yObJUg9FxFs"
-				},
+				},"""
 			]
 		},
 		{

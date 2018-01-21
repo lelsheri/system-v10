@@ -1,4 +1,4 @@
-# Copyright (c) 2015, Frappe Technologies Pvt. Ltd. and Contributors
+# Copyright (c) 2015, Revaluesoft S.A.E
 # License: GNU General Public License v3. See license.txt
 
 import frappe
@@ -190,7 +190,7 @@ def send_email_notification(mr_list):
 		subject=_('Auto Material Requests Generated'), message = msg)
 
 def notify_errors(exceptions_list):
-	subject = "[Important] [ERPNext] Auto Reorder Errors"
+	subject = "[Important] [Revalue ERP] Auto Reorder Errors"
 	content = """Dear System Manager,
 
 An error occured for certain Items while creating Material Requests based on Re-order level.

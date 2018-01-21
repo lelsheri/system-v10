@@ -16,7 +16,7 @@ Setup tax code in the item master, system will fetch same code in the sales/purc
 <img class="screenshot" alt="Tax Code in Item" src="/docs/assets/img/regional/uae/tax-code-item.png">
 ### 3. Default Tax Templates
 
-ERPNext provides you default tax template for vat(5%, zero, exempted) and excise(50%, 100%). You can create your own [tax template](/docs/user/manual/en/setting-up/setting-up-taxes.html).
+Revalue ERP provides you default tax template for vat(5%, zero, exempted) and excise(50%, 100%). You can create your own [tax template](/docs/user/manual/en/setting-up/setting-up-taxes.html).
 
 <img class="screenshot" alt="Default Tax Template" src="/docs/assets/img/regional/uae/uae-tax-templates.png">
 
@@ -36,7 +36,7 @@ For **Sales Invoice**,
 
 ### 4. Print Tax Invoice
 
-ERPNext provides 2 default print foramt
+Revalue ERP provides 2 default print foramt
 
 1. Simplified Tax Invoice
 <img class="screenshot" alt="Simplified Tax Invoice" src="/docs/assets/img/regional/uae/simplified-invoice.png">

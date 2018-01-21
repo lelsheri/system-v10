@@ -15,9 +15,9 @@ requirements = parse_requirements("requirements.txt", session="")
 setup(
 	name='erpnext',
 	version=version,
-	description='Open Source ERP',
-	author='Frappe Technologies',
-	author_email='info@erpnext.com',
+	description='Revalue ERP',
+	author='Revalue S.A.E',
+	author_email='info@revaluesoft.com',
 	packages=find_packages(),
 	zip_safe=False,
 	include_package_data=True,

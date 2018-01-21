@@ -463,17 +463,17 @@ def get_data():
 				{
 					"type": "help",
 					"label": _("Chart of Accounts"),
-					"youtube_id": "DyR-DST-PyA"
+					"youtube_id": "KqPDP1be5iY"
 				},
 				{
 					"type": "help",
 					"label": _("Opening Accounting Balance"),
-					"youtube_id": "kdgM20Q-q68"
+					"youtube_id": "5YOChjierWo"
 				},
 				{
 					"type": "help",
 					"label": _("Setting up Taxes"),
-					"youtube_id": "nQ1zZdPgdaQ"
+					"youtube_id": "KQem5_xbing"
 				}
 			]
 		}

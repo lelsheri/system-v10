@@ -1,6 +1,6 @@
-## ERPNext includes these public works
+## Revalue ERP includes these public works
 
-For Frappé Framework, please see attributions.md at https://github.com/frappe/frappe/
+For Revaluesoft Framework, please see attributions.md at https://github.com/elba7r/frameworking-v10/
 
 #### Images
 

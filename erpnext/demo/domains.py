@@ -2,27 +2,27 @@ from __future__ import unicode_literals
 
 data = {
 	'Manufacturing': {
-		'company_name': 'Wind Power LLC'
+		'company_name': 'Revaluesoft'
 	},
 	'Retail': {
-		'company_name': 'Annapurna Dairy Shop',
+		'company_name': 'Revaluesoft',
 	},
 	'Distribution': {
-		'company_name': 'Soltice Hardware',
+		'company_name': 'Revaluesoft',
 	},
 	'Services': {
-		'company_name': 'Acme Consulting'
+		'company_name': 'Revaluesoft'
 	},
 	'Education': {
-		'company_name': 'Whitmore College'
+		'company_name': 'Revaluesoft'
 	},
 	'Healthcare': {
-		'company_name': 'ABC Hospital Ltd.'
+		'company_name': 'Revaluesoft'
 	},
 	'Agriculture': {
-		'company_name': 'Schrute Farms'
+		'company_name': 'Revaluesoft'
   },
 	'Non Profit': {
-		'company_name': 'Erpnext Foundation'
+		'company_name': 'Revaluesoft'
 	}
 }

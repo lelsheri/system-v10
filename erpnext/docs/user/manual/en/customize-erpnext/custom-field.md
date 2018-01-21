@@ -1,6 +1,6 @@
 # Custom Field
 
-Every form in the ERPNext has standard set of fields. If you need to capture some information, but there is no standard field available for it, you can insert Custom Field in a form as per your requirement.
+Every form in the Revalue ERP has standard set of fields. If you need to capture some information, but there is no standard field available for it, you can insert Custom Field in a form as per your requirement.
 
 Following are the steps to insert Custom Field in the existing form.
 
@@ -63,7 +63,7 @@ You can set properties as:
 
 ####Update Customize Form
 
-After inserting required details for the Custom Field, Update Customize Form. On update, Custom Field will be inserting in the form, Employee master in this case. Before checking Employee form, reload your ERPNext account. After reload, check Employee form to see Custom Field in a form.
+After inserting required details for the Custom Field, Update Customize Form. On update, Custom Field will be inserting in the form, Employee master in this case. Before checking Employee form, reload your Revalue ERP account. After reload, check Employee form to see Custom Field in a form.
 
 <img alt="Select Document Type" class="screenshot" src="/docs/assets/img/customize/custom-field-6.png">
 

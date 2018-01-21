@@ -1,4 +1,4 @@
-# Copyright (c) 2015, Frappe Technologies Pvt. Ltd. and Contributors
+# Copyright (c) 2015, Revaluesoft S.A.E
 
 from __future__ import unicode_literals
 import frappe

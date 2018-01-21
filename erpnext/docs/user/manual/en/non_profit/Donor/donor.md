@@ -2,7 +2,7 @@
 
 The Donor doctype allows you to record the Donor details.
 
-Donor are simply contacts in your ERPNext database with one or more Donation. The contact may be an individual, a household, an organisation, or some other contact sub-type, but it is always a contact to which a donation is applied.
+Donor are simply contacts in your Revalue ERP database with one or more Donation. The contact may be an individual, a household, an organisation, or some other contact sub-type, but it is always a contact to which a donation is applied.
 
 To create new Donor go to:
 

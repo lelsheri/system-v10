@@ -77,7 +77,7 @@ def get_data():
 				{
 					"type": "help",
 					"label": _("Managing Projects"),
-					"youtube_id": "egxIGwtoKI4"
+					"youtube_id": "pyEIezEhk6Q"
 				},
 			]
 		},

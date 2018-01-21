@@ -1,8 +1,8 @@
 # Bill of Material
 
-<iframe width="660" height="371" src="https://www.youtube.com/embed/hDV0c1OeWLo" frameborder="0" allowfullscreen></iframe>
+<iframe width="660" height="371" src="https://www.youtube.com/embed/7OYqOnGaY8k" frameborder="0" allowfullscreen></iframe>
 
-**Duration: 3:27**
+
 
 The BOM is a list of all materials (either bought or made) and operations that go into a finished product or sub-Item.
 

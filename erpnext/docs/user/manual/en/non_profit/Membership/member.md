@@ -2,7 +2,7 @@
 
 The Member doctype allows you to record the Member details for a **Membership**.
 
-Members are simply contacts in your ERPNext database with one or more memberships. The contact may be an individual, a household, an organisation, or some other contact sub-type, but it is always a contact to which a membership is applied.
+Members are simply contacts in your Revalue ERP database with one or more memberships. The contact may be an individual, a household, an organisation, or some other contact sub-type, but it is always a contact to which a membership is applied.
 
 To create new Member go to:
 

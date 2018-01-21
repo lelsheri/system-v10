@@ -2,7 +2,7 @@
 
 The Volunteer doctype allows you to record the Volunter details.
 
-Volunteer are simply contacts in your ERPNext database with one or more volunteering program. The contact may be an individual, a household, an organisation, or some other contact sub-type
+Volunteer are simply contacts in your Revalue ERP database with one or more volunteering program. The contact may be an individual, a household, an organisation, or some other contact sub-type
 
 To create new Volunteer go to:
 

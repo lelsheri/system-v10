@@ -10,15 +10,15 @@ Make a demo
 
 1. Start with a fresh account
 
-bench --site demo.erpnext.dev reinstall
+bench --site demo.revaluesoft.com reinstall
 
 2. Install Demo
 
-bench --site demo.erpnext.dev execute erpnext.demo.demo.make
+bench --site demo.revaluesoft.com execute erpnext.demo.demo.make
 
 3. If Demo breaks, to continue
 
-bench --site demo.erpnext.dev execute erpnext.demo.demo.simulate
+bench --site demo.revaluesoft.com execute erpnext.demo.demo.simulate
 
 """
 

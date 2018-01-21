@@ -24,7 +24,7 @@ To Generate Grant Application go to:
 
 **Email:** Email is a mandatory field.
 
-**Organization:** Organization is data field contain organizaion name set as name field in erpnext.
+**Organization:** Organization is data field contain organizaion name set as name field in Revalue ERP.
 
 
 **Address and Contact Section:** This Section linked to address and contact doctypes.

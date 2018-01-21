@@ -1,7 +1,7 @@
 # Budgetierung
 <span class="text-muted contributed-by">Beigetragen von CWT Connector & Wire Technology GmbH</span>
 
-ERPNext hilft Ihnen dabei Budgets in Ihren Kostenstellen zu erstellen und zu verwalten. Das ist zum Beispiel dann nützlich, wenn Sie Online-Umsätze tätigen. Sie haben Werbebudgets für Suchmaschinen und Sie möchten dass ERPNext Sie davon abhält oder warnt mehr auszugeben, als im Budget vorgesehen ist.
+Revalue ERP hilft Ihnen dabei Budgets in Ihren Kostenstellen zu erstellen und zu verwalten. Das ist zum Beispiel dann nützlich, wenn Sie Online-Umsätze tätigen. Sie haben Werbebudgets für Suchmaschinen und Sie möchten dass Revalue ERP Sie davon abhält oder warnt mehr auszugeben, als im Budget vorgesehen ist.
 
 Budgets sind auch gut für Planungsangelegenheiten. Wenn Sie Ihre Planungen für das nächste Geschäftsjahr erstellen, dann planen Sie normalerweise einen Umsatz nachdem sich die Aufwendungen richten. Das Aufstellen eines Budgets stellt sicher, dass Ihre Aufwendungen zu keinem Zeitpunkt aus dem Ruder laufen.
 
@@ -18,7 +18,7 @@ Um ein Budget zuzuweisen, gehen Sie zu Rechnungswesen > Einstellungen > Übersic
 
 <img class="screenshot" alt="Budget" src="/docs/assets/img/accounts/budget-account.png">
 
-Wenn Sie die Verteilungs-ID leer lassen, kalkuliert ERPNext auf einer jährlichen Basis und bricht auf die Monate herunter.
+Wenn Sie die Verteilungs-ID leer lassen, kalkuliert Revalue ERP auf einer jährlichen Basis und bricht auf die Monate herunter.
 
 #### Schritt 3: Fügen Sie eine neue Zeile hinzu und wählen Sie das Budget-Konto
 
