@@ -105,5 +105,5 @@ not ideal as your Customer may or may not decide to pay up. But since your
 Customer wants an “Invoice”, you could give the Customer a Quotation (in
 Revalue ERP) titled as “Pro Forma Invoice”. This way everyone is happy.
 
-This is a fairly common practice. We follow this at Frappé too.
+This is a fairly common practice. We follow this at Revalue too.
 {next}

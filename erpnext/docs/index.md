@@ -7,7 +7,7 @@ business. Revalue ERP covers a wide range of features including Accounting, CRM,
 Inventory management, Selling, Purchasing, Manufacturing, Projects, HR &
 Payroll, Website, E-Commerce and much more.
 
-Revalue ERP is based on the Frappé Framework is highly customizable and extendable.
+Revalue ERP is based on the Revalue Framework is highly customizable and extendable.
 You can create Custom Form, Fields, Scripts and can also create your own Apps
 to extend Revalue ERP functionality.
 

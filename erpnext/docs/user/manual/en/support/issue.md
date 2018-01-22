@@ -7,7 +7,7 @@ Ticket to email, see the Email Settings section).
 > Tip: A dedicated support Email Address is a good way to integrate incoming
 queries via email. For example, you can send support queries to Revalue ERP at
 support@revaluesoft.com and it will automatically create a Issue in the
-Frappé system.
+Revalue system.
 
 
 

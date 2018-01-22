@@ -1,34 +1,34 @@
-// Copyright (c) 2015, Frappe Technologies Pvt. Ltd. and Contributors
+// Copyright (c) 2015, Revaluesoft S.A.E.
 // License: GNU General Public License v3. See license.txt
 
 frappe.provide('erpnext');
 
 // add toolbar icon
 $(document).bind('toolbar_setup', function() {
-	frappe.app.name = "ERPNext";
+	frappe.app.name = "Revalue ERP";
 
 	frappe.help_feedback_link = '<p><a class="text-muted" \
-		href="https://discuss.erpnext.com">Feedback</a></p>'
+		href="http://www.revaluesoft.com">Feedback</a></p>'
 
 
 	$('.navbar-home').html('<img class="erpnext-icon" src="'+
 			frappe.urllib.get_base_url()+'/assets/erpnext/images/erp-icon.svg" />');
 
-	$('[data-link="docs"]').attr("href", "https://frappe.github.io/erpnext/")
-	$('[data-link="issues"]').attr("href", "https://github.com/frappe/erpnext/issues")
+	$('[data-link="docs"]').attr("href", "http://www.revaluesoft.com")
+	$('[data-link="issues"]').attr("href", "https://github.com/elba7r/system-v10/issues")
 
 
 	// default documentation goes to erpnext
-	// $('[data-link-type="documentation"]').attr('data-path', '/erpnext/manual/index');
+    $('[data-link-type="documentation"]').attr('data-path', '/erpnext/manual/index');
 
 	// additional help links for erpnext
 	var $help_menu = $('.dropdown-help ul .documentation-links');
 
-	$('<li><a data-link-type="forum" href="https://discuss.erpnext.com" \
+	$('<li><a data-link-type="forum" href="http://www.revaluesoft.com" \
 		target="_blank">'+__('User Forum')+'</a></li>').insertBefore($help_menu);
-	$('<li><a href="https://gitter.im/frappe/erpnext" \
+	$('<li><a href="http://www.revaluesoft.com" \
 		target="_blank">'+__('Chat')+'</a></li>').insertBefore($help_menu);
-	$('<li><a href="https://github.com/frappe/erpnext/issues" \
+	$('<li><a href="https://github.com/elba7r/system-v10/issues" \
 		target="_blank">'+__('Report an Issue')+'</a></li>').insertBefore($help_menu);
 
 });
