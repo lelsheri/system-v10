@@ -32,6 +32,7 @@ System and user credentials are listed on the download page.
 
 GNU/General Public License (see LICENSE.txt)
 
+
 The Revalue ERP code is licensed as GNU General Public License (v3) and the Documentation is licensed as Creative Commons (CC-BY-SA-3.0) and the copyright is owned by Revalue Technologies Pvt Ltd (Revalue) and Contributors.
 
 ---
@@ -57,6 +58,7 @@ Revaluesoft S.A.E. (Revaluesoft) owns and oversees the trademarks for the Revalu
 - We’d like to make it hard for anyone to use the Revalue ERP name and logo to unfairly profit from, trick or confuse people who are looking for official Revalue ERP resources.
 
 ### Revalue Trademark Usage Policy
+
 
 Permission from Revalue is required to use the Revalue ERP name or logo as part of any project, product, service, domain or company name.
 
