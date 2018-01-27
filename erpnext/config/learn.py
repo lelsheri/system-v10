@@ -11,21 +11,21 @@ def get_data():
 					"label": _("Report Builder"),
 					"youtube_id": "WQALaSBQtdU"
 				},
-"""				{
-					"type": "help",
-					"label": _("Navigating"),
-					"youtube_id": "YDoI2DF4Lmc"
-				},
-				{
-					"type": "help",
-					"label": _("Setup Wizard"),
-					"youtube_id": "oIOf_zCFWKQ"
-				},
-				{
-					"type": "help",
-					"label": _("Customizing Forms"),
-					"youtube_id": "pJhL9mmxV_U"
-				},"""
+				#{
+				#	"type": "help",
+				#	"label": _("Navigating"),
+				#	"youtube_id": "YDoI2DF4Lmc"
+				#},
+				#{
+				#	"type": "help",
+				#	"label": _("Setup Wizard"),
+				#	"youtube_id": "oIOf_zCFWKQ"
+				#},
+				#{
+				#	"type": "help",
+				#	"label": _("Customizing Forms"),
+				#	"youtube_id": "pJhL9mmxV_U"
+				#},
 			]
 
 		},
@@ -42,31 +42,31 @@ def get_data():
 					"label": _("File Manager"),
 					"youtube_id": "aYgtAALuZD4"
 				},						
-"""				{
-					"type": "help",
-					"label": _("Data Import and Export"),
-					"youtube_id": "6wiriRKPhmg"
-				},"""
-"""				{
-					"type": "help",
-					"label": _("Setting up Email Account"),
-					"youtube_id": "YFYe0DrB95o"
-				},
-				{
-					"type": "help",
-					"label": _("Printing and Branding"),
-					"youtube_id": "cKZHcx1znMc"
-				},
-				{
-					"type": "help",
-					"label": _("Users and Permissions"),
-					"youtube_id": "8Slw1hsTmUI"
-				},
-				{
-					"type": "help",
-					"label": _("Workflow"),
-					"youtube_id": "yObJUg9FxFs"
-				},"""
+				#{
+				#	"type": "help",
+				#	"label": _("Data Import and Export"),
+				#	"youtube_id": "6wiriRKPhmg"
+				#},
+				#{
+				#	"type": "help",
+				#	"label": _("Setting up Email Account"),
+				#	"youtube_id": "YFYe0DrB95o"
+				#},
+				#{
+				#	"type": "help",
+				#	"label": _("Printing and Branding"),
+				#	"youtube_id": "cKZHcx1znMc"
+				#},
+				#{
+				#	"type": "help",
+				#	"label": _("Users and Permissions"),
+				#	"youtube_id": "8Slw1hsTmUI"
+				#},
+				#{
+				#	"type": "help",
+				#	"label": _("Workflow"),
+				#	"youtube_id": "yObJUg9FxFs"
+				#},
 			]
 		},
 		{
@@ -122,11 +122,11 @@ def get_data():
 					"label": _("Newsletters"),
 					"youtube_id": "LO6FjwVyW5Y"
 				},				
-"""				{
-					"type": "help",
-					"label": _("Lead to Quotation"),
-					"youtube_id": "TxYX4r4JAKA"
-				},"""
+				#{
+				#	"type": "help",
+				#	"label": _("Lead to Quotation"),
+				#	"youtube_id": "TxYX4r4JAKA"
+				#},
 			]
 		},
 		{
@@ -278,11 +278,11 @@ def get_data():
 					"label": _("Salary Management"),
 					"youtube_id": "W1ZbhjgBsVw"
 				},					
-"""				{
-					"type": "help",
-					"label": _("Processing Payroll"),
-					"youtube_id": "apgE-f25Rm0"
-				},"""	
+				#{
+				#	"type": "help",
+				#	"label": _("Processing Payroll"),
+				#	"youtube_id": "apgE-f25Rm0"
+				#},	
 			]
 		},
 		{
@@ -300,19 +300,19 @@ def get_data():
 				},				
 			]
 		},
-"""		{
-			"label": _("Website"),
-			"items": [
-				{
-					"type": "help",
-					"label": _("Publish Items on Website"),
-					"youtube_id": "W31LBBNzbgc"
-				},
-				{
-					"type": "help",
-					"label": _("Shopping Cart"),
-					"youtube_id": "xkrYO-KFukM"
-				},
-			]
-		},"""
+		#{
+		#	"label": _("Website"),
+		#	"items": [
+		#		{
+		#			"type": "help",
+		#			"label": _("Publish Items on Website"),
+		#			"youtube_id": "W31LBBNzbgc"
+		#		},
+		#		{
+		#			"type": "help",
+		#			"label": _("Shopping Cart"),
+		#			"youtube_id": "xkrYO-KFukM"
+		#		},
+		#	]
+		#},
 	]
