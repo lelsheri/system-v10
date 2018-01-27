@@ -56,21 +56,21 @@ def get_data():
 					"label": _("File Manager"),
 					"youtube_id": "aYgtAALuZD4"
 				},
-"""				{
-					"type": "help",
-					"label": _("Printing and Branding"),
-					"youtube_id": "cKZHcx1znMc"
-				},
-				{
-					"type": "help",
-					"label": _("Users and Permissions"),
-					"youtube_id": "fnBoRhBrwR4"
-				},
-				{
-					"type": "help",
-					"label": _("Workflow"),
-					"youtube_id": "yObJUg9FxFs"
-				},"""
+				#{
+				#	"type": "help",
+				#	"label": _("Printing and Branding"),
+				#	"youtube_id": "cKZHcx1znMc"
+				#},
+				#{
+				#	"type": "help",
+				#	"label": _("Users and Permissions"),
+				#	"youtube_id": "fnBoRhBrwR4"
+				#},
+				#{
+				#	"type": "help",
+				#	"label": _("Workflow"),
+				#	"youtube_id": "yObJUg9FxFs"
+				#},
 			]
 		},
 		{
