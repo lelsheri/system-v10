@@ -225,11 +225,11 @@ def get_data():
 					"label": _("Buying Cycle"),
 					"youtube_id": "n4TP9hzh_GE"
 				},
-"""				{
-					"type": "help",
-					"label": _("Managing Subcontracting"),
-					"youtube_id": "ThiMCC2DtKo"
-				},"""
+				#{
+				#	"type": "help",
+				#	"label": _("Managing Subcontracting"),
+				#	"youtube_id": "ThiMCC2DtKo"
+				#},
 			]
 		},
 	]
