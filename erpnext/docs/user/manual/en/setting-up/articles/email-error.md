@@ -2,7 +2,7 @@
 
 In Revalue ERP, you can customize the Incoming and Outgoing Email Gateway. On saving an Email Account, Revalue ERP tries establishing a connection with your email gateway. If your Revalue ERP account is able to connect fine, then Email Account is saved successfully. If not, then you might receive an error as below.  
 
-<img class="screenshot" alt="Email Error" src="/docs/assets/img/articles/email-error.png">
+<img class="screenshot" alt="Email Error" src="{{docs_base_url}}/assets/img/articles/email-error.png">
 
 This indicates that using login credentials and other email gateway details provided in the Email Account, Revalue ERP is not able to connect to your email server. Please ensure that you have entered valid email credentials for your Email Gateway. Once you have configured Email Account successfully, you should be able to send and receive emails from your Revalue ERP account fine.
 

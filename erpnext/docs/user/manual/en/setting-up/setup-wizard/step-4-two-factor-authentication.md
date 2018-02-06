@@ -2,7 +2,7 @@
 
 Enable Two Factor Athentication
 
-<img alt="TwoFactor" class="screenshot" src="/docs/assets/img/setup-wizard/twofactor.png">
+<img alt="TwoFactor" class="screenshot" src="{{docs_base_url}}/assets/img/setup-wizard/twofactor.png">
 
 ---
 ###Authentication Method
