@@ -1,4 +1,4 @@
-# ERPNext User Manual
+# Revalue ERP User Manual
 
 Select your language
 
