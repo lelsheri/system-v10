@@ -1,7 +1,7 @@
 # Customize Form
 
 <!--markdown-->
-Before we venture to learn form customization tool, click [here](https://frappe.io/docs/user/en/tutorial/doctypes.html) to understand the architecture of forms in Revalue ERP. It shall help you in using Customize Form tool more efficiently.
+Before we venture to learn form customization tool, click [here](http://revaluesoft.com/docs/user/en/tutorial/doctypes.html) to understand the architecture of forms in Revalue ERP. It shall help you in using Customize Form tool more efficiently.
 
 Customize Form is the tool which allows user to customize property of the standard fields, and insert [custom fields](/docs/user/manual/en/customize-erpnext/custom-field.html) as per the requirement. Let's assume we need to set Project Name field as a mandatory field in the Sales Order form. Following are the steps which shall be followed to achieve this.
 

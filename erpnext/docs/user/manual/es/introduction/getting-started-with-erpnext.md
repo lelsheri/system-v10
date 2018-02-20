@@ -13,7 +13,7 @@ see the demo at:
 
 
 ERPNext.com es manejado por la organización (Revalue) que publicó ERPNext.
-Puedes iniciar con su propia cuenta en [registrandote en la página](https://erpnext.com).
+Puedes iniciar con su propia cuenta en [registrandote en la página](http://revaluesoft.com).
 
 También, puedes hostear tu aplicación en erpnext.com comprando un plan de alojamiento.
 	De esta forma, estas aportando a la organización que desarrolla y mejora ERPNext.
@@ -24,7 +24,7 @@ También, puedes hostear tu aplicación en erpnext.com comprando un plan de aloj
 Para evitar las molestias de instalar el sistema, ERPNext está disponible como una image virtual (un sistema operativo completo con ERPNext instalado).
 Puedes usarla en **cualquier** plataforma incluyendo Microsoft Windows.
 
-[Click aquí para ver las instrucciones de como usar la imagen](https://erpnext.com/download)
+[Click aquí para ver las instrucciones de como usar la imagen](http://revaluesoft.com/download)
 
 ### 4\. Instalar ERPNext en su ordenador Unix/Linux/Mac
 

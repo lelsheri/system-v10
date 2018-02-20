@@ -17,17 +17,17 @@ class TestInit(unittest.TestCase):
 		abbr = company.abbr
 
 		names = [
-			"Warehouse Name", "Revaluesoft S.A.E", "Gold - Member - {a}".format(a=abbr),
-			" - {a}".format(a=abbr), "Revaluesoft S.A.E",
-			"Revaluesoft S.A.E - {a}".format(a=abbr),
+			"Warehouse Name", "Revalue Foundation Egypt", "Gold - Member - {a}".format(a=abbr),
+			" - {a}".format(a=abbr), "Revalue - Foundation - Egypt",
+			"Revalue Foundation Egypt - {a}".format(a=abbr),
 			"No-Space-{a}".format(a=abbr), "- Warehouse"
 		]
 
 		expected_names = [
-			"Warehouse Name - {a}".format(a=abbr), "Revaluesoft S.A.E - {a}".format(a=abbr),
+			"Warehouse Name - {a}".format(a=abbr), "Revalue Foundation Egypt - {a}".format(a=abbr),
 			"Gold - Member - {a}".format(a=abbr), " - {a}".format(a=abbr),
-			"Revaluesoft S.A.E - {a}".format(a=abbr),
-			"Revaluesoft S.A.E - {a}".format(a=abbr), "No-Space-{a} - {a}".format(a=abbr),
+			"Revalue - Foundation - Egypt - {a}".format(a=abbr),
+			"Revalue Foundation Egypt - {a}".format(a=abbr), "No-Space-{a} - {a}".format(a=abbr),
 			"- Warehouse - {a}".format(a=abbr)
 		]
 

@@ -1,6 +1,6 @@
-## Revalue ERP includes these public works
+## Revalue includes these public works
 
-For Revaluesoft Framework, please see attributions.md at https://github.com/elba7r/frameworking-v10/
+For Revalue Framework, please see attributions.md at https://github.com/elba7r/frameworking-v10/
 
 #### Images
 

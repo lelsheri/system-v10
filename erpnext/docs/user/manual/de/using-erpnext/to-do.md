@@ -1,7 +1,7 @@
 # Aufgaben
 <span class="text-muted contributed-by">Beigetragen von CWT Connector & Wire Technology GmbH</span>
 
-"Aufgaben" ist ein einfaches Werkzeug, welches alle Aktivitäten, die Ihnen [zugeordnet](https://erpnext.com/collaboration-tools/assignment) wurden, und die Sie zugeordnet haben, auflistet. Sie können zudem Ihre eigenen ToDos der Liste hinzufügen.
+"Aufgaben" ist ein einfaches Werkzeug, welches alle Aktivitäten, die Ihnen [zugeordnet](http://revaluesoft.com/collaboration-tools/assignment) wurden, und die Sie zugeordnet haben, auflistet. Sie können zudem Ihre eigenen ToDos der Liste hinzufügen.
 
 ![Todo-Liste](/docs/assets/old_images/erpnext/todo-list.png)
 

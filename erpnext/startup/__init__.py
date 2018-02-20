@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
-# Revalue ERP - web based ERP (http://www.revaluesoft.com)
-# Copyright (C) 2012 Frappe Technologies Pvt Ltd
+# Revalue ERP - web based ERP (http://revaluesoft.com)
+# Copyright (C) 2012 Revaluesoft S.A.E
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -21,7 +21,7 @@ from __future__ import unicode_literals
 
 import frappe
 
-product_name = "Revalue ERP"
+product_name = "ERPNext"
 user_defaults = {
 	"Company": "company",
 	"Territory": "territory"
