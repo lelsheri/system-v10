@@ -3,13 +3,13 @@ from frappe import _
 
 app_name = "erpnext"
 app_title = "Revalue ERP"
-app_publisher = "Frappe Technologies Pvt. Ltd."
+app_publisher = "Revaluesoft S.A.E"
 app_description = """ERP made simple"""
 app_icon = "fa fa-th"
 app_color = "#e74c3c"
 app_email = "info@revaluesoft.com"
 app_license = "GNU General Public License (v3)"
-source_link = "https://github.com/elba7r/system-v10"
+source_link = "https://github.com/frappe/erpnext"
 
 develop_version = '9.x.x-develop'
 
@@ -235,7 +235,7 @@ email_brand_image = "assets/erpnext/images/erpnext-logo.jpg"
 default_mail_footer = """
 	<span>
 		Sent via
-		<a class="text-muted" href="http://www.revaluesoft.com?source=via_email_footer" target="_blank">
+		<a class="text-muted" href="http://www.revaluesoft.com/" target="_blank">
 			Revalue ERP
 		</a>
 	</span>
