@@ -31,7 +31,7 @@ def get_pos_data():
 	default_print_format = pos_profile.get('print_format') or "Point of Sale"
 	print_template = frappe.db.get_value('Print Format', default_print_format, 'html')
 	customers = get_customers_list(pos_profile)
-	sellers = get_sellers()
+	sellers = get_sellers(pos_profile)
 #	frappe.throw(_("{0}").format(sellers))
 	return {
 		'doc': doc,
@@ -163,9 +163,11 @@ def get_item_groups(pos_profile):
 		item_group_dict[data.name] = [data.lft, data.rgt]
 	return item_group_dict
 
-def get_sellers():
+def get_sellers(pos_profile):
     	sales_partners={}
-    	sales_partnersl = frappe.db.sql(""" select name, partner_name from `tabSales Partner` """, as_dict=1) or {}
+	terri = pos_profile.territory
+#	frappe.throw(_("{0}").format(terri))
+    	sales_partnersl = frappe.db.sql(""" select name, partner_name from `tabSales Partner` where territory = %s """, terri, as_dict=1) or {}
 	for data in sales_partnersl:
     		sales_partners[data.name] = [data.partner_name]	
 	return sales_partners
