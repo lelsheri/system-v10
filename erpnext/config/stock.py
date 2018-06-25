@@ -190,6 +190,10 @@ def get_data():
 					"type": "doctype",
 					"name": "Item Attribute",
 				},
+                {
+                    "type": "doctype",
+                    "name": "Barcode Printer",
+                },
 				{
 					"type": "doctype",
 					"name": "Brand",
