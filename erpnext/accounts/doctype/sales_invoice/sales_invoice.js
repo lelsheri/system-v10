@@ -5,6 +5,14 @@
 cur_frm.pformat.print_heading = 'Invoice';
 
 {% include 'erpnext/selling/sales_common.js' %};
+var bars = [];
+var batches = [];
+var bari = "";
+var barb = "";
+var barsup = "";
+var bar = "";
+var nbar = "";
+var nbatch = "";
 
 cur_frm.add_fetch('customer', 'tax_id', 'tax_id');
 
