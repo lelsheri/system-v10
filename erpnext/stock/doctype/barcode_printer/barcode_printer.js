@@ -13,11 +13,11 @@ frappe.ui.form.on('Barcode Printer', {
                 d.item_code = row.item_code;
 				d.item_barcode = row.barcode;
 				d.item_batch = row.batch_no;
-				d.printer_barcode = row.barcode+"-"+row.batch_no+"-"+frm.doc.invoice_supplier_id;
+ ///               d.printer_barcode = row.barcode+"-"+row.batch_no+"-"+frm.doc.invoice_supplier_id;
+				d.printer_barcode = row.barcode;
                 frm.refresh_field("barcode_printer_items");
             });
         });
-		
     },
 	purchase_receipt: function(frm) {
         frm.doc.purchase_invoice = ""
@@ -30,10 +30,10 @@ frappe.ui.form.on('Barcode Printer', {
                 d.item_code = row.item_code;
 				d.item_barcode = row.barcode;
 				d.item_batch = row.batch_no;
-				d.printer_barcode = row.barcode+"-"+row.batch_no+"-"+frm.doc.receipt_supplier_id;
+    ///			d.printer_barcode = row.barcode+"-"+row.batch_no+"-"+frm.doc.receipt_supplier_id;
+				d.printer_barcode = row.barcode;
                 frm.refresh_field("barcode_printer_items");
             });
         });
-		
-	}    
+    }
 });

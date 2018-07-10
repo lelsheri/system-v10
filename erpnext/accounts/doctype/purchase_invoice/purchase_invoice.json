@@ -146,6 +146,7 @@
    "bold": 0, 
    "collapsible": 0, 
    "columns": 0, 
+   "default": "", 
    "fieldname": "supplier_id", 
    "fieldtype": "Read Only", 
    "hidden": 0, 
@@ -1270,7 +1271,7 @@
    "unique": 0
   }, 
   {
-   "allow_bulk_edit": 0, 
+   "allow_bulk_edit": 1, 
    "allow_on_submit": 0, 
    "bold": 0, 
    "collapsible": 0, 
@@ -4004,7 +4005,7 @@
  "istable": 0, 
  "max_attachments": 0, 
  "menu_index": 0, 
- "modified": "2018-06-25 03:12:42.127936", 
+ "modified": "2018-07-09 15:38:06.011185", 
  "modified_by": "Administrator", 
  "module": "Accounts", 
  "name": "Purchase Invoice", 
