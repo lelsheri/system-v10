@@ -117,23 +117,35 @@ erpnext.accounts.SalesInvoiceController = erpnext.selling.SellingController.exte
 		bar = String(doc.scan);
 		nbar = bar.split("-");
 		bari = nbar[0];
+		nbatch = nbar[1];
 
     	for (var i=0, l=(this.frm.doc.items || []).length; i<l; i++){
     		var row = this.frm.doc.items[i];
     		if (row.barcode == null) {
 				frappe.model.set_value(row.doctype, row.name, "barcode", bari, "Link");
+				frappe.model.set_value(row.doctype, row.name, "real_batch", nbatch, "Data");
     			changed = true;
 				bars.push(row.barcode);
-    		}else if (row.barcode == bari ){
+				batches.push(nbatch);
+    		}else if (row.barcode == bari && row.real_batch == nbatch){
     			quant = row.qty+1;
     			frappe.model.set_value(row.doctype, row.name, "qty", quant, "data");
 				changed = true;
+    		}else if (row.barcode == bari && row.real_batch != nbatch && !(batches.includes(nbatch))){
+    			cur_frm.add_child("items");
+    			var row = this.frm.doc.items[l];
+				frappe.model.set_value(row.doctype, row.name, "barcode", bari, "Link");
+				frappe.model.set_value(row.doctype, row.name, "real_batch", nbatch, "Data");				
+    			changed = true;
+				batches.push(nbatch);
     		}else if (!(bars.includes(bari))){
     			cur_frm.add_child("items");
     			var row = this.frm.doc.items[l];
-    			frappe.model.set_value(row.doctype, row.name, "barcode", bari, "Link");
+				frappe.model.set_value(row.doctype, row.name, "barcode", bari, "Link");
+				frappe.model.set_value(row.doctype, row.name, "real_batch", nbatch, "Data");				
     			changed = true;
 				bars.push(row.barcode);
+				batches.push(nbatch);				
     		}
     	}
 
@@ -142,6 +154,18 @@ erpnext.accounts.SalesInvoiceController = erpnext.selling.SellingController.exte
 		refresh_field("scan");
 	},
 
+	validate: function(doc, dt, dn) {
+		this.batches_check();
+	},
+
+	batches_check: function(){
+    	for (var i=0, l=(this.frm.doc.items || []).length; i<l; i++){
+			var row = this.frm.doc.items[i];
+			if (row.real_batch && row.batch_no != row.real_batch){
+				frappe.throw(__("All Batch No MUST Be Equal To Real Batch, Please Fix it Then Save"))
+			}
+		}
+	},
 
 	on_submit: function(doc, dt, dn) {
 		var me = this;
