@@ -11,6 +11,7 @@ frappe.ui.form.on('Barcode Printer', {
             $.each(tabletransfer.items, function(index, row){
                 d = frm.add_child("barcode_printer_items");
                 d.item_code = row.item_code;
+                d.item_name = row.item_name;
 				d.item_barcode = row.barcode;
 				d.item_batch = row.batch_no;
  ///               d.printer_barcode = row.barcode+"-"+row.batch_no+"-"+frm.doc.invoice_supplier_id;
@@ -28,6 +29,7 @@ frappe.ui.form.on('Barcode Printer', {
             $.each(tabletransfer.items, function(index, row){
                 d = frm.add_child("barcode_printer_items");
                 d.item_code = row.item_code;
+                d.item_name = row.item_name;
 				d.item_barcode = row.barcode;
 				d.item_batch = row.batch_no;
     ///			d.printer_barcode = row.barcode+"-"+row.batch_no+"-"+frm.doc.receipt_supplier_id;
