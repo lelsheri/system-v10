@@ -374,7 +374,7 @@ def get_commision(doc, commission_rate=None):
 	if doc.get('sales_partner'):
     			rate = frappe.db.get_value('Sales Partner',doc.get('sales_partner'), 'commission_rate')
 	else:
-    			return 1
+    			return 0
 #	frappe.throw(_({"0"}).format(rate))
   
 	return rate

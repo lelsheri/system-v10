@@ -341,6 +341,13 @@ class ReceivablePayableReport(object):
 				conditions.append("party in (select name from tabCustomer where payment_terms=%s)")
 				values.append(self.filters.get("payment_terms_template"))
 
+		if party_type_field=="supplier":
+   		    if self.filters.get("supplier_type"):
+		        suptype = self.filters.get("supplier_type")
+    		        conditions.append("""party in (select name from tabSupplier
+		                where supplier_type=%s)""")
+    			values.append(self.filters.get("supplier_type"))
+
 		return " and ".join(conditions), values
 
 	def get_gl_entries_for(self, party, party_type, against_voucher_type, against_voucher):
