@@ -5638,3 +5638,11 @@ DocType: Supplier,Tax Office,مأمورية الضرائب
 DocType: Supplier,Tax Office Code,كود المأمورية
 DocType: Supplier,Tax File No,رقم الملف الضريبى
 DocType: Supplier,Address,العنوان
+DocType: Cashier Closing,Cashier Closing,تقفيل الكاشير
+DocType: Cashier Closing,User,المستخدم
+DocType: Cashier Closing,Date,التاريخ
+DocType: Cashier Closing,Time,الوقت
+DocType: Cashier Closing,Expense,مصاريف
+DocType: Cashier Closing,Custody,عهدة
+DocType: Cashier Closing,In Save,الخزنه
+DocType: Cashier Closing,Net Amount,الصافي
