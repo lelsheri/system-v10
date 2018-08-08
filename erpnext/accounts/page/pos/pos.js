@@ -127,6 +127,10 @@ erpnext.pos.PointOfSale = erpnext.taxes_and_totals.extend({
 			frappe.set_route('List', 'Cashier Closing');
 		});
 
+		this.page.add_menu_item(__("Expense Claim"), function () {
+			frappe.set_route('List', 'Expense Claim');
+		});		
+
 		this.page.add_menu_item(__("POS Profile"), function () {
 			frappe.set_route('List', 'POS Profile');
 		});
