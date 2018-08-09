@@ -3,9 +3,16 @@
 
 frappe.ui.form.on('Cashier Closing', {
 
+	expense: function(frm){
+		frm.doc.net_amount = frm.doc.expense + frm.doc.in_save - frm.doc.custody;
+	},
+
+	custody: function(frm){
+		frm.doc.net_amount = frm.doc.expense + frm.doc.in_save - frm.doc.custody;
+	},
+
 	in_save: function(frm){
-		var me = this;
-		frm.doc.user = user
-		frm.doc.net_amount = flt(frm.doc.in_save) - flt(frm.doc.custody) + flt(frm.doc.expense)
+		frm.doc.user = frappe.session.user;
+		frm.doc.net_amount = frm.doc.expense + frm.doc.in_save - frm.doc.custody;
 	}
 });
