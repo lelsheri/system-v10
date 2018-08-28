@@ -15,7 +15,7 @@ def set_default_settings(args):
 	global_defaults.update({
 		'current_fiscal_year': get_fy_details(args.get('fy_start_date'), args.get('fy_end_date')),
 		'default_currency': args.get('currency'),
-		'default_company':args.get('company_name')	,
+		'default_company':args.get('company_name'),
 		"country": args.get("country"),
 	})
 

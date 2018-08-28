@@ -104,6 +104,10 @@ class SalesInvoice(SellingController):
 		if self.is_pos and not self.is_return:
 			self.verify_payment_amount_is_positive()
 
+		#validate amount in mode of payments for returned invoices for pos must be negative
+		if self.is_pos and self.is_return:
+			self.verify_payment_amount_is_negative()
+
 	def before_save(self):
 		set_account_for_mode_of_payment(self)
 
@@ -910,6 +914,11 @@ class SalesInvoice(SellingController):
 		for entry in self.payments:
 			if entry.amount < 0:
 				frappe.throw(_("Row #{0} (Payment Table): Amount must be positive").format(entry.idx))
+
+	def verify_payment_amount_is_negative(self):			
+		for entry in self.payments:
+    			if entry.amount > 0:
+				frappe.throw(_("Row #{0} (Payment Table): Amount must be negative").format(entry.idx))
 
 def get_list_context(context=None):
 	from erpnext.controllers.website_list_for_contact import get_list_context
