@@ -151,6 +151,7 @@ def get_ref_item_dict(valid_items, ref_item_row):
 		"rejected_qty": 0,
 		"received_qty": 0,
 		"serial_no": [],
+		"conversion_factor": ref_item_row.get("conversion_factor", 1),
 		"batch_no": []
 	}))
 	item_dict = valid_items[ref_item_row.item_code]
@@ -227,7 +228,7 @@ def make_return_doc(doctype, source_name, target_doc=None):
 				for data in source.payments:
    					paid_amount = 0.00
 					base_paid_amount = 0.00
-   					data.base_amount = flt(data.amount*source.conversion_rate, source.precision("base_amount"))
+   					data.base_amount = flt(data.amount*source.conversion_rate, source.precision("base_paid_amount"))
 					paid_amount += data.amount
 					base_paid_amount += data.base_amount
 					doc.append('payments', {
