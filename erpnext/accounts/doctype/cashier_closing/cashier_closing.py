@@ -27,7 +27,7 @@ class CashierClosing(Document):
 		for i in self.payments:
 			total += i.amount
 
-		self.net_amount = total + self.outstanding_amount + self.expense - self.custody
+		self.net_amount = total + self.outstanding_amount + self.expense - self.custody + self.returns
 
 	def validate_time(self):
 		if self.from_time >= self.time:
