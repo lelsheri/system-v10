@@ -157,13 +157,27 @@ def calculate_values(accounts, gl_entries_by_account, opening_balances, filters,
 			if cstr(entry.is_opening) != "Yes":
 				d["debit"] += flt(entry.debit)
 				d["credit"] += flt(entry.credit)
-
+				
+		d["closing_debit"] = d["opening_debit"] + d["debit"]
+		d["closing_credit"] = d["opening_credit"] + d["credit"]
 		total_row["debit"] += d["debit"]
 		total_row["credit"] += d["credit"]
-		total_row["opening_debit"] += d["opening_debit"]
-		total_row["opening_credit"] += d["opening_credit"]
-		total_row["closing_debit"] += (d["opening_debit"] + d["debit"])
-		total_row["closing_credit"] += (d["opening_credit"] + d["credit"])
+		if d["root_type"] == "Asset" or d["root_type"] == "Equity" or d["root_type"] == "Expense":
+			d["opening_debit"] -= d["opening_credit"]
+			d["opening_credit"] = 0.0
+			total_row["opening_debit"] += d["opening_debit"]
+		if d["root_type"] == "Liability" or d["root_type"] == "Income":
+			d["opening_credit"] -= d["opening_debit"]
+			d["opening_debit"] = 0.0
+			total_row["opening_credit"] += d["opening_credit"]
+		if d["root_type"] == "Asset" or d["root_type"] == "Equity" or d["root_type"] == "Expense":
+			d["closing_debit"] -= d["closing_credit"]
+			d["closing_credit"] = 0.0
+			total_row["closing_debit"] += d["closing_debit"]
+		if d["root_type"] == "Liability" or d["root_type"] == "Income":
+			d["closing_credit"] -= d["closing_debit"]
+			d["closing_debit"] = 0.0
+			total_row["closing_credit"] += d["closing_credit"]
 
 	return total_row
 
@@ -269,18 +283,18 @@ def prepare_opening_and_closing(d):
 	d["closing_debit"] = d["opening_debit"] + d["debit"]
 	d["closing_credit"] = d["opening_credit"] + d["credit"]
 
-#	if d["closing_debit"] > d["closing_credit"]:
-#		d["closing_debit"] -= d["closing_credit"]
-#		d["closing_credit"] = 0.0
+	if d["root_type"] == "Asset" or d["root_type"] == "Equity" or d["root_type"] == "Expense":
+		d["opening_debit"] -= d["opening_credit"]
+		d["opening_credit"] = 0.0
 
-#	else:
-#		d["closing_credit"] -= d["closing_debit"]
-#		d["closing_debit"] = 0.0
+	if d["root_type"] == "Liability" or d["root_type"] == "Income":
+		d["opening_credit"] -= d["opening_debit"]
+		d["opening_debit"] = 0.0
 
-#	if d["opening_debit"] > d["opening_credit"]:
-#		d["opening_debit"] -= d["opening_credit"]
-#		d["opening_credit"] = 0.0
+	if d["root_type"] == "Asset" or d["root_type"] == "Equity" or d["root_type"] == "Expense":
+		d["closing_debit"] -= d["closing_credit"]
+		d["closing_credit"] = 0.0
 
-#	else:
-#		d["opening_credit"] -= d["opening_debit"]
-#		d["opening_debit"] = 0.0
+	if d["root_type"] == "Liability" or d["root_type"] == "Income":
+		d["closing_credit"] -= d["closing_debit"]
+		d["closing_debit"] = 0.0
